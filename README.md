@@ -13,4 +13,6 @@ Genre classification using machine learning and deep learning
 * Scipy
 * Tensorflow
 
-### This is incomplete
+### TODO
+
+* Improve model accuracy
