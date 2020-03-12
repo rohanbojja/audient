@@ -16,3 +16,5 @@ Genre classification using machine learning and deep learning
 ### TODO
 
 * Improve model accuracy
+* Build a better neural network
+* Expand classes from the generic GTZAN classes to something more robust.
