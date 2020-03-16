@@ -17,4 +17,4 @@ Genre classification using machine learning and deep learning
 
 * Improve model accuracy
 * Build a better neural network
-* Expand classes from the generic GTZAN classes to something more robust.
+* Use super-genres for prediction. (https://musicmap.info/)
