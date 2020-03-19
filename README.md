@@ -16,5 +16,10 @@ Genre classification using machine learning and deep learning
 ### TODO
 
 * Improve model accuracy
-* Build a better neural network
+* Train with keras.layers.GaussianNoise(stddev)?
+* Try other models and variations.
+* Normalize the training data for real life values. (Noise, frequency spectrum of the recording device, etc)
+
+### Extension:
+
 * Use super-genres for prediction. (https://musicmap.info/)
