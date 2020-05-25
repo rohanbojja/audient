@@ -1,0 +1,75 @@
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     |
+|1    FastTreeOva                                 0.7263         0.7173     424.3          1                     |
+|2    LightGbmMulti                               0.7238         0.6930     248.0          2                     |
+|3    LbfgsMaximumEntropyMulti                    0.7143         0.6973      30.6          3                     |
+|4    LightGbmMulti                               0.7126         0.7104     112.6          4                     |
+|5    LbfgsMaximumEntropyMulti                    0.7103         0.6779      19.4          5                     |
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     |
+|1    AveragedPerceptronOva                       0.6916         0.6591      12.5          1                     |
+|2    SdcaMaximumEntropyMulti                     0.6857         0.6749     102.8          2                     |
+|3    LightGbmMulti                               0.7126         0.7104     112.6          3                     |
+|4    SymbolicSgdLogisticRegressionOva            0.4579         0.4342       8.8          4                     |
+|5    FastTreeOva                                 0.7263         0.7173     424.3          5                     |
+|6    LinearSvmOva                                0.6500         0.6496       7.8          6                     |
+|7    LbfgsLogisticRegressionOva                  0.6947         0.7011      22.3          7                     |
+|8    SgdCalibratedOva                            0.6762         0.6851      13.5          8                     |
+|9    FastForestOva                               0.6800         0.6746     262.5          9                     |
+|10   LbfgsMaximumEntropyMulti                    0.7103         0.6779      19.4         10                     |
+|11   LightGbmMulti                               0.7238         0.6930     248.0         11                     |
+|12   FastTreeOva                                 0.4632         0.5049     339.6         12                     |
+|13   LbfgsMaximumEntropyMulti                    0.7143         0.6973      30.6         13                     |
+|14   LightGbmMulti                               0.4000         0.4172      11.9         14                     |
+|15   FastTreeOva                                 0.6907         0.7288    1783.1         15                     |
+|16   LbfgsMaximumEntropyMulti                    0.7100         0.7103       8.9         16                     |
+|17   LightGbmMulti                               0.6598         0.6565      53.6         17                     |
+
+===============================================Experiment Results=================================================
+------------------------------------------------------------------------------------------------------------------
+|                                                     Summary                                                    |
+------------------------------------------------------------------------------------------------------------------
+|ML Task: multiclass-classification                                                                              |
+|Dataset: C:\Users\rohan\source\repos\Audient\AudientFeatureExtractor\AudientFeatureExtractor\bin\Debug\netcoreapp3.1\Data.csv|
+|Label : genre                                                                                                   |
+|Total experiment time : 3462.1794007 Secs                                                                       |
+|Total number of models explored: 17                                                                             |
+------------------------------------------------------------------------------------------------------------------
+
+|                                              Top 5 models explored                                             |
+------------------------------------------------------------------------------------------------------------------
+|     Trainer                              MicroAccuracy  MacroAccuracy  Duration #Iteration                     |
+|1    FastTreeOva                                 0.7263         0.7173     424.3          1                     |
+|2    LightGbmMulti                               0.7238         0.6930     248.0          2                     |
+|3    LbfgsMaximumEntropyMulti                    0.7143         0.6973      30.6          3                     |
+|4    LightGbmMulti                               0.7126         0.7104     112.6          4                     |
+|5    LbfgsMaximumEntropyMulti                    0.7103         0.6779      19.4          5                     |
+------------------------------------------------------------------------------------------------------------------
+
+Code Generated
+
+
+
+
+
+
+
+
+
+
+
+	Model	Accuracy	AUC	Recall	Prec.	F1	Kappa
+0	Extreme Gradient Boosting	0.7239	0	0.7238	0.7343	0.7147	0.6932
+1	Light Gradient Boosting Machine	0.7211	0	0.7212	0.7285	0.7131	0.69
+2	Linear Discriminant Analysis	0.6996	0	0.6988	0.7194	0.6972	0.6661
+3	Extra Trees Classifier	0.6996	0	0.6998	0.701	0.686	0.6662
+4	Gradient Boosting Classifier	0.6982	0	0.6981	0.7207	0.6973	0.6646
+5	Ridge Classifier	0.651	0	0.6505	0.6476	0.6304	0.6122
+6	Ada Boost Classifier	0.6367	0	0.6367	0.6637	0.6357	0.5963
+7	Random Forest Classifier	0.6023	0	0.6021	0.6179	0.5971	0.558
+8	Logistic Regression	0.5723	0	0.5721	0.5776	0.56	0.5248
+9	Naive Bayes	0.5521	0	0.5521	0.5636	0.5361	0.5024
+10	K Neighbors Classifier	0.4079	0	0.4083	0.415	0.3975	0.3421
+11	Decision Tree Classifier	0.392	0	0.3919	0.5631	0.4161	0.3244
+12	SVM - Linear Kernel	0.2445	0	0.2443	0.2336	0.1818	0.1604
+13	Quadratic Discriminant Analysis	0.1804	0	0.1802	0.2397	0.1652	0.0892
